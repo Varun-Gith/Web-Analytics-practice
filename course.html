@@ -115,7 +115,7 @@ dataLayer.push({
 	    dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
   event: "add_to_cart",
-  ecommerce: {
+  ecommerce1: {
     items: [
      {
       item_id: "SKU_12345",
@@ -137,7 +137,15 @@ dataLayer.push({
       location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
       price: 9.99,
       quantity: 1
-    },
+    }]
+  }
+});
+	    	    dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+dataLayer.push({
+  event: "add_to_cart",
+  ecommerce2: {
+    items: [
+     
     {
       item_id: "SKU_12346",
       item_name: "Google Grey Women's Tee",
@@ -163,6 +171,7 @@ dataLayer.push({
     }]
   }
 });
+	 
 	    
 	    dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
